@@ -15,7 +15,12 @@ Basically the *android-support-v4.jar* has been removed and replaced with a refe
 
 #How to use?
 
-With Cordova CLI:
+To install with Cordova CLI:
 
 `cordova plugin add https://github.com/casati/appodeal-cordova-plugin`
+
+To unistall:
+
+`cordova plugin remove com.appodeal.plugin`
+
 
