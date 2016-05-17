@@ -12,3 +12,10 @@ The platform is a large auction house, accompanied by a mediation layer, that ex
 
 I've created this fork to make the Appodeal plugin capable to work with [AdMob Pro](https://github.com/floatinghotpot/cordova-admob-pro) or any other plugin that uses the Google Play Ads Services (com.google.android.gms:play-services-ads).
 Basically the *android-support-v4.jar* has been removed and replaced with a reference to the *com.google.android.gms:play-services-ads:+* framework (see config.xml)
+
+#How to use?
+
+With Cordova CLI:
+
+`cordova plugin add https://github.com/casati/appodeal-cordova-plugin`
+
