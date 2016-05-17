@@ -6,3 +6,9 @@ The platform is a large auction house, accompanied by a mediation layer, that ex
 
 [Android integration guide](http://www.appodeal.com/sdk/documentation?framework=9&full=1&platform=1) </br>
 [iOS integration guide](http://www.appodeal.com/sdk/documentation?framework=9&full=1&platform=2)
+
+
+#Why this fork?
+
+I've created this fork to make the Appodeal plugin capable to work with [AdMob Pro](https://github.com/floatinghotpot/cordova-admob-pro) or any other plugin that uses the Google Play Ads Services (com.google.android.gms:play-services-ads).
+Basically the *android-support-v4.jar* has been removed and replaced with a reference to the *com.google.android.gms:play-services-ads:+* framework (see config.xml)
